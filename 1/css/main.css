@@ -1,0 +1,304 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.icon-logo {
+    font-size: 20px;
+    color: #123456;
+    background: pink;
+    padding: 12px 15px;
+    border-radius: 50%;
+    font-family: FontAwesome;
+ }
+
+
+ /** 
+             <a class="navbar-brand" href="#"><span class="fas fa-crown icon-logo"></span></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>       
+            </button>
+**/
+
+/*HEADER*/
+
+#header{
+    background-image: url(/img/new3.jpg);
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.navbar-nav li a{
+    float: right;
+    color: white !important;
+    font-weight: bold;
+}
+
+.navbar-brand img{
+    width: 50px;
+    margin-left: 30px;
+}
+
+
+/*WELCOME*/
+
+.welcome{
+    padding: 50px ;
+    margin-top: -150px;
+    background-color: white;
+    box-shadow: 0 0 20px 10px rgba(0,0,0,0.2);
+}
+
+.welcome .home-btn{
+    margin-top: 10px;
+    padding: 10px 30px;
+    border-radius: 30px;
+    background-color: brown;
+}
+
+.welcome .btn:focus{
+    box-shadow: none;
+}
+
+/*ABOUT*/
+
+.img_dance{
+    width: 400px;
+    height: 300px;
+}
+
+.about{
+    padding-top: 70px;
+    padding-bottom: 100px;
+}
+
+.about .col-md-6{
+    padding: 40px 20px;
+}
+
+.about h3{
+    margin: 20px auto;
+}
+
+/*SERVICES*/
+
+.services{
+    background-image: linear-gradient(to right, white, grey);
+    padding-top: 80px;    
+    padding-bottom: 80px;
+}
+
+.card{
+    padding-top: 20px;
+}
+
+.card_header{
+    padding: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.card-img-top{
+    width:70px;
+    height:70px;
+}
+
+.card_text{
+    padding: 5px;
+    text-align: justify;
+} 
+
+/*FEAUTERS*/
+
+.features{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(/img/bg1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    color:white;
+}
+
+.features .col-md-6{
+    padding: 20px;
+
+}
+
+.feature-box{
+    height: 120px;
+    
+}
+
+.feature-box .feature-left{
+    height: 120px;
+    width: 20%;
+    float: left;
+    
+}
+
+.feature-box .feature-left .fa{
+    padding-top: 13px;
+    font-size: 50px;
+}
+
+.feature-box .feature-right{
+    height: 120px;
+    width: 80%;
+    float: left;
+    
+}
+
+.feature-box .feature-right h4{
+    padding-top: 10px;
+    padding-left: 15px;
+    text-align: left;
+    
+}
+
+.feature-box .feature-right p{
+    padding-left: 15px;
+    text-align: left;
+    
+} 
+
+/*TESTIMONIAL*/
+
+.testimonials{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.testimonials .col-md-4{
+    padding: 10px 30px;
+}
+
+.testimonials img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-left: -30px;
+    margin-top: -40px;
+    box-shadow: 0px 0px 20px 1px rgba(0,0,0,0.5);
+    margin-bottom: 30px;
+}
+
+.review{
+    font-size: 16px;
+    padding: 10px 10px 10px 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 1px rgba(0,0,0,0.2);
+}
+
+.review .fa-twitter{
+    color: darkblue;
+}
+
+.testimonials span{
+    color: darkblue;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.testimonials_text {
+    margin-bottom: 20px;
+}
+
+.testimonials_text_p{
+    padding-bottom: 20px;
+}
+
+.testimonials .middle{
+    margin-bottom: -30px;
+    margin-top: -30px;
+}
+
+/*SUBSCRIBE*/
+
+.subscribe{
+    padding: 50px 20px;
+    background-color: cornflowerblue;
+    position: relative;
+    box-shadow: 0 0 20px 7px rgba(0,0,0,0.2);
+    margin-bottom: -160px;
+}
+
+.subscribe h3, .subscribe p{
+    color:white;
+}
+
+.form-control{
+    border: none;
+    background: transparent;
+}
+
+.form-control:focus{
+    box-shadow: none;
+    background: transparent;
+}
+
+.btn-outline-dark{
+    background: transparent;
+    border: none;
+    color:white;
+}
+
+.btn-outline-dark:focus{
+    box-shadow: none;
+}
+
+/**FOOTER**/
+
+.footer{
+    margin-top: 80px;
+    padding-top: 100px;
+    background-image: linear-gradient(to right, white, grey);
+    color: black;
+}
+
+.footer-logo{
+    width: 50px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+.footer h1{
+    font-size: 15px;
+    text-align: left;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.footer .col-md-3 p{
+    text-align: left;
+}
+
+.footer p{
+    font-size: 12px;
+    text-align: left;
+}
+
+.footer .city{
+    margin-left: 35px;
+}
+
+.footer .row .fa{
+    padding-right: 20px;
+    font-size: 15px;
+}
+
+.footer hr{
+    margin-top: 10px;
+}
+
+.footer .fa-copyright{
+    font-size: 17px;
+}
+
+.footer .copyright{
+    margin-bottom: -80px;
+    text-align: center;
+    font-size: 15px;
+}
+
